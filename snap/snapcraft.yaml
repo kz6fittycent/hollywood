@@ -11,8 +11,6 @@ grade: stable
 
 parts:
   hollywood:
-  environment: 
-    LC_ALL: C.UTF-8
     plugin: nil
     stage-packages: 
       - hollywood
@@ -28,3 +26,5 @@ parts:
 apps:
    hollywood:
      command: hollywood
+     environment: 
+       LC_ALL: C.UTF-8
