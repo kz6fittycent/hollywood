@@ -6,7 +6,7 @@ description: >
     technobabble, perfectly suitable for any Hollywood geek melodrama.
     It is particularly suitable on any number of computer consoles in the
     background of any excellent schlock technothriller.
-confinement: strict
+confinement: devmode
 grade: stable
 
 parts:
