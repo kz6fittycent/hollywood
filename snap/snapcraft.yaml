@@ -1,5 +1,5 @@
 name: hollywood-kz6fittycent
-version: 1.12.1
+version: 1.12.2
 summary: fill your console with Hollywood melodrama technobabble
 description: >
     This utility will split your console into a multiple panes of genuine
@@ -12,6 +12,8 @@ grade: stable
 parts:
   hollywood:
     plugin: nil
+    build-packages:
+      - byobu
     stage-packages: 
       - hollywood
       - glibc-source
